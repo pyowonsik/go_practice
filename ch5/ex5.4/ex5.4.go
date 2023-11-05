@@ -8,6 +8,6 @@ func main() {
 
 	fmt.Print(str)
 	fmt.Printf("%s", str)
-	fmt.Printf("%q", str)
+	fmt.Printf("%q", str) // 특수 문자의 기능 잃는다.
 
 }

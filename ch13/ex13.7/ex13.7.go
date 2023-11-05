@@ -7,9 +7,9 @@ import (
 
 type User struct {
 	A int8
-	B int
+	B int // int64
 	C int8
-	D int
+	D int // int64
 	E int8
 }
 

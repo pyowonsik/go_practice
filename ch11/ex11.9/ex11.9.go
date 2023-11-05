@@ -17,6 +17,8 @@ func main() {
 
 	for ; a <= 9; a++ {
 		var found bool
+
+		// 함수 호출이 true일때 반환
 		if b, found = find45(a); found {
 			break
 		}
