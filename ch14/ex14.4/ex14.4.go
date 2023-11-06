@@ -40,4 +40,9 @@ func main() {
 
 	// var p := new(Data) -> 내부 필드값 초기화 불가 .
 
+	// 인스턴스 생성이 아닌 가리키는것 : 인스턴스는 1개
+	// var p1 *Data = &Data{}
+	// var p2 *Data = p1
+	// var p3 *Data = p1
+
 }
